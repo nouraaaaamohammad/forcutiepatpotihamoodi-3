@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.screen { display: none; text-align: center; padding: 50px; }
+#welcome { display: block; }
+
+input[type="text"] { padding: 10px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc; margin-right: 10px; }
+button { padding: 10px 20px; border-radius: 8px; border: none; background: #ff99cc; color: white; cursor: pointer; font-size: 16px; }
+button:hover { background: #ff66a3; }
+.message { color: red; margin-top: 10px; }
+
+#mainMenu { background-color: #f9dae2; min-height: 100vh; padding-top: 50px; }
+
+.boxes { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px; }
+.box { width: 200px; height: 100px; background-color: #ff99cc; border-radius: 12px; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; text-align: center; cursor: pointer; padding: 10px; }
+.box:hover { background-color: #ff66a3; }
+
+/* Modal */
+.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5);}
+.modal-content { background-color: #fff; margin: 15% auto; padding: 20px; border-radius: 15px; width: 80%; max-width: 500px; text-align: center; }
+.close { color: #333; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+.close:hover { color: #ff66a3; }
